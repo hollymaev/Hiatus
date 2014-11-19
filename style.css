@@ -62,10 +62,11 @@ text-decoration: none;
 	
 }
 .video-container {
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
+	margin: 0 auto;
+	display: block;
 	position: relative;
+	min-width: auto;
+	height: auto;
 
 }
 .text {
