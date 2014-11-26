@@ -132,30 +132,16 @@ text-decoration: none;
 	margin: 5px
 	
 }
-#slider {
-        width:720px;
-        height:400px;
-        overflow:hidden;
+.twitter-timeline {
+    float: right;
+    clear: left;
+    margin-right: 10px
 }
-#slider .slides {
-        display: block;
-        width: 6000px;
-        height: 400px;
-        margin: 0;
-        padding: 0;
-}
-#slider .slide {
-        float: left;
-        list-style-type:none;
-        width:720px;
-        height:400px;
-}
-
 .video-container {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	position: relative;
+	position: block;
 	min-width: auto;
 
 }
