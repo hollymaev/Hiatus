@@ -121,12 +121,6 @@ text-decoration: none;
 .nav_bar a:hover {
 	color: #000000;
 	text-decoration: none;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	margin: 5px;
-	background-color: rgb(250,250,250);
 
 }
 .nav_bar ul {
@@ -150,18 +144,21 @@ text-decoration: none;
 	margin: 5px
 
 }
-.twitter-timeline {
+#twitter-container .twitter-timeline {
     float: right;
-    clear: left;
-    margin-right: 10px
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2em;
+    //max-width: 100%;
+    width: 80%;
 }
 .video-container {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	position: block;
-	min-width: auto;
-
+	//min-width: auto;
+    width: 40%;
 }
 .text {
 font-family: 'existencelight';
