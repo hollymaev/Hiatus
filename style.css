@@ -191,8 +191,33 @@ text-decoration: none;
 font-family: 'existencelight';
 font-size:24px;
 text-align:center;
-
 }
+hr {
+    font-family: 'existencelight';
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    text-align: center;
+}
+hr.style-one:after {
+    content: "Here Is What Hiatus Is All About!";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgb(250,250,250);
+}
+hr.style-two:after {
+    content: "Our Mission";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgb(250,250,250);
+}
+
 .footer {
   background-color: rgba(0, 0, 0, .2);
   position: relative;
