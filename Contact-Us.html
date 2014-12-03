@@ -3,66 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href="./Hiatus-favicon.png" rel="icon" type="image/x-icon"/>
 <title>Hiatus-Your Study Buddy</title>
-    <style>
-	h1 {color:darkgrey;
-	font-family: 'existencelight';
-	text-align:center;}
-	table, h2 {font-family: 'existencelight';}
-	form {margin-left:40%;
-	font-family: 'existencelight';}	
-	</style>
+<img class="header" src="./Hiatus-Logo.png"/>
 </head>
 
 <body>
-<a href="index.html"><img class="header" src="./Hiatus-Logo.png"/></a>
 <div class="nav_bar">
     <ul>
 		<li><a href="./About-Us.html">About Us</a></li>
         <li><a href="./Pre_Article-Feed.html">Pre-Exam</a></li>
-		<li><a href="./Hiatus_Article-Feed.html">Hiatus</a></li>
-		<li><a href="./Post_Article-Feed.html">Post-Exam</a></li>
+		<li><a href="">Hiatus</a></li>
+		<li><a href="">Post-Exam</a></li>
         <li><a href="./Contact-Us.html">Contact Us</a></li>
 	</ul>
 </div>
 <br/><br/>
+<div id="main_container">
+<table id="table1">
+	<tr>
+		<td rowspan="2">
+		<img src="./contactUsPic.jpg">
+        <br>
+		<form id="contact">
+			<span>YOUR NAME (REQUIRED)</span><br><br>
+			<input class="contactus" type="text" name="name"/>
+			<br>
+			<span>YOUR EMAIL (REQUIRED)</span><br><br>
+			<input class="contactus" type="email" name="name"/>
+			<br>
+			<span>SUBJECT</span><br><br>
+			<input class="contactus" type="text" name="subject"/>
+			<br>
+			<span>YOUR MESSAGE</span><br><br>
+			<textarea placeholder="Your message here..." id="body"></textarea>
+			<br>
+			<input type="submit" name="send" value="Send" />
+			</form>
+		</td>
+		<td><div id="contact_info">
+		<ul id="contact_us">
+		<li>EMAIL
+		<br>
+		</li>
+		<li>PHONE</li>
+		<li>ON THE WEB</li>
+        <img src="Social Network ICON/F.png">
+        <img src="Social Network ICON/T.png">
+        <img src="Social Network ICON/P.png">
+		</ul>
+		</div></td>
+	</tr>
+</table>
 
-<p><h1><b>We Are Your Study BUDDY</b></h1></p>
 
-<br>
-<div style="background-color:black; color:white; margin:20px; padding:15px;" align="center">
-
-<h2><b>WE CARE</b></h2>
-<p>We would love to hear from you!</p>
 </div>
-<br><br>
-<a>
-<form>
-<p>Contact Us</p>
-<p3>First name:</p3><br>
-<input type="text" name="firstname"  value="" required pattern = "[A-Za-z]{1,}" style="margin-left:15%">
-<br>
-<p3>Last name:</p3><br>
-<input type="text" name="lastname" value="" required pattern = "[A-Za-z]{1,}" style="margin-left:15%">
-<br>
-<p3>Email:</p3><br>
-<input type="email" name="email" value="" size ="20" required aria-required= "true" style="margin-left:15%">
-<br>
-<p3>Message:</p3><br>
-<textarea rows="15"  id="Message" maxlength ="300" style="margin-left:15%" > </textarea>
-<br>
-<input type="submit" value="Submit" style="margin-left:15%">
-<input type="reset" value="Reset" style="margin-left:15%">
-
-
-
-</form>
-
-
-<footer class="footer">
- &copy; copyright by Hiatus.com
-</footer>
-</a>
+<div class="footer"> This is a footer...add anything you want</div>
 </body>
 </html>
