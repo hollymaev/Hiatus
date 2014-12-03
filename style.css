@@ -362,6 +362,12 @@ ul#contact_us li
   position: relative;
   left: 200px;
 }
+.back {
+  text-decoration: none;
+}
+.back a {
+  text-decoration: none;
+}
 
 .footer {
   background-color: rgba(0, 0, 0, .2);
