@@ -362,14 +362,15 @@ ul#contact_us li
   position: relative;
   left: 200px;
 }
-.button {
-	float: right;
-	display: inline-block;
-}
+
 .footer {
   background-color: rgba(0, 0, 0, .2);
-  position:;
   left: 0px;
   height: 50px;
   max-width: 100%;
 }
+.arrow {
+	margin-left:auto;
+	margin-right:auto;
+}
+
