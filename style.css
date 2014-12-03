@@ -97,20 +97,25 @@ background-color: RGB(250, 250, 250);
         }
         #blurb {
             width: 600px;
+			align-content: center;
         }
-
+		.textblockcenter {
+			text-align: left;
+			margin-left: auto; 
+			margin-right: auto; 
+			max-width: 800px;
+		}
         #blurb p { 
-
-            margin-left: auto; margin-right: auto; width: 100%; background: #aabbcc;
-            text-align: center;            text-align: center;
-            max-width: 600px;
-
+            margin-left: auto; 
+			margin-right: auto; 
+			width: 100%;
+            text-align: center;
+            max-width: 800px;
 		    }
+
         #content {
             padding-top: 1em;
-            clear: left;
-            margin: 0 200px 0 2em;
-        }
+        	}
         #content h2 { 
 			      margin-top: 0;
 		    }
