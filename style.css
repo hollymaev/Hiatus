@@ -421,10 +421,11 @@ ul#contact_us li
 }
 
 .footer {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgb(65,117,151);
   left: 0px;
   height: 50px;
   max-width: 100%;
+  color: white;
 }
 
 #arrow {
