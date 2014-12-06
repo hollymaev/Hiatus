@@ -80,14 +80,14 @@ background-color: RGB(250, 250, 250);
     	margin-left: auto;
     	margin-right: auto;
   	}
-	
+
 	.container {
 		width: 50%;
 		margin: 30px auto;
 		overflow: hidden;
 		text-align: center;
 	}
-	
+
 	.article {
 		float: left;
 		margin-left: 30px;
@@ -95,9 +95,9 @@ background-color: RGB(250, 250, 250);
 		align-content: center;
 	}
         .imageblock {
-            margin-left: auto; 
-            margin-right: auto; 
-            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
         }
         #article_container
         {
@@ -112,13 +112,13 @@ background-color: RGB(250, 250, 250);
         }
 		.textblockcenter {
 			text-align: left;
-			margin-left: auto; 
-			margin-right: auto; 
+			margin-left: auto;
+			margin-right: auto;
 			max-width: 800px;
 		}
-        #blurb p { 
-            margin-left: auto; 
-			margin-right: auto; 
+        #blurb p {
+            margin-left: auto;
+			margin-right: auto;
 			width: 100%;
             text-align: center;
             max-width: 800px;
@@ -127,7 +127,7 @@ background-color: RGB(250, 250, 250);
         #content {
             padding-top: 1em;
         	}
-        #content h2 { 
+        #content h2 {
 			      margin-top: 0;
 		    }
 
@@ -227,7 +227,7 @@ hr.style-one:after {
     content: "Our Story";
     display: inline-block;
     position: relative;
-    top: -0.7em;  
+    top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
     background: rgb(250,250,250);
@@ -235,8 +235,8 @@ hr.style-one:after {
 hr.style-two:after {
     content: "Our Mission";
     display: inline-block;
-    position: relative; 
-    top: -0.7em;  
+    position: relative;
+    top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
     background: rgb(250,250,250);
@@ -247,19 +247,42 @@ hr.style-two:after {
   margin:20px;
   border: 10px solid white;
 }
-.box1
-{
+#box1, #box2 {
   height: 100px;
   width: 400px;
   color: gray;
-  text-align: justify;
-  padding:15px;
+
   font-family: tahoma;
   border-radius: 3px;
   border-top: 2px solid #C0C2C3;
   border-bottom: 2px solid #C0C2C3;
   line-height: 25px;
 }
+
+#box1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#box2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#articleone {
+  float: left;
+}
+
+#articletwo {
+  float: right;
+}
+
+.about {
+  margin-left: 190px;
+  margin-right: 190px;
+  position: relative;
+}
+
 table
 {
   text-align: center;
@@ -332,11 +355,11 @@ textarea#body
 hr.rule {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    width: 700px; 
+    width: 700px;
 }
 div#contact_info
 {
@@ -374,14 +397,11 @@ ul#contact_us li
   height: 50px;
   max-width: 100%;
 }
-.arrow {
+
+#arrow {
 	margin-left:auto;
 	margin-right:auto;
+	display: block;
+	align-content: center;
 }
-      .about { 
-	  	margin-left: auto; 
-		margin-right: auto; 
-		display: block;
-		width: 50%;
-		align-content: center;
-		}
+
