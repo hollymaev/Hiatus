@@ -55,8 +55,11 @@ background-color: RGB(250, 250, 250);
 
 }
         h1 {
-            font-family: 'discoregular';
-            text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	text-indent: 90px;
+	text-shadow: px 0px;
+	font-weight: bold;
         }
         h2 {
             font-family: 'discoregular';
@@ -95,9 +98,10 @@ background-color: RGB(250, 250, 250);
 		align-content: center;
 	}
         .imageblock {
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-indent: 40px;
         }
         #article_container
         {
@@ -404,4 +408,3 @@ ul#contact_us li
 	display: block;
 	align-content: center;
 }
-
