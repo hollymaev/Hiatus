@@ -306,15 +306,16 @@ table#team
 }
 .contact
 {
-  font-size: 20px;
+
 }
-input.contactus
+.contactus
 {
+  font-size: 20px;
   width:500px;
   height: 30px;
   margin-bottom: 20px;
 }
-form#contact
+#contact
 {
   font-weight: bold;
   color: #808074;
@@ -361,11 +362,11 @@ hr.rule {
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     width: 700px;
 }
-div#contact_info
-{
-  position: relative;
-  bottom:130px;
-  left: 50px;
+#contact_info  {
+  float: right;
+  margin-right: 150px;
+
+
 }
 ul#contact_us
 {
