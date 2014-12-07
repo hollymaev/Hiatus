@@ -431,3 +431,20 @@ ul#contact_us li
 	display: block;
 	align-content: center;
 }
+#thanks_container
+{
+	overflow: auto;
+	min-height: 200px;
+	text-align: center;
+}
+.disclaimer_tainer
+{
+	overflow: hidden;
+	margin: 30px auto;
+	width: 50%;
+	text-align: center;
+}
+.disclaimer_tainer p
+{
+	text-align: left;
+}
