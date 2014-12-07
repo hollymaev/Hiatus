@@ -366,7 +366,7 @@ textarea#body
 #main_container
 {
 	overflow: auto;
-	min-height: 1100px;
+	min-height: 10px;
 	text-align: center;
 }
 #ourTeam
