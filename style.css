@@ -66,13 +66,14 @@ background-color: RGB(250, 250, 250);
             text-align: center;
         }
 	      h3 {
-		        font-family: 'discoregular';
+	font-family: 'discoregular';
             font-weight:;
+	text-align: left;
 	      }
 	p {
-		font-family: 'existencelight';
-		font-size: 18px;
-		text-align: center;
+	font-family: 'existencelight';
+	font-size: 18px;
+	text-align: left;
 	}
 	.words {
     	max-width: 900px;
