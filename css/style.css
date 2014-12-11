@@ -286,12 +286,12 @@ hr.style-two:after {
 
 	.box1
 	{
-		height: 100px;
+		height: 125px;
 		width: 400px;
 		color: gray;
 		text-align: justify;
 		padding:15px;
-		font-family: tahoma;
+		font-family: verdana;
 		border-radius: 3px;
 		border-top: 2px solid #C0C2C3;
 		border-bottom: 2px solid #C0C2C3;
