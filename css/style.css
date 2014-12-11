@@ -450,6 +450,9 @@ ul#contact_us li
   max-width: 100%;
   color: white;
 }
+footer a {
+  color: white;
+}
 
 #arrow {
 	margin-left:auto;
